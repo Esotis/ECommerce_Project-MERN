@@ -1,0 +1,4 @@
+.table-responsive-sm {
+  max-height: 70vh;
+  overflow: scroll;
+}
