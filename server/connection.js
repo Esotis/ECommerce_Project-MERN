@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 dotenv.config();
 
-const CONNECTION_URL = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.aipatuc.mongodb.net/e-commerce?retryWrites=true&w=majority`;
+const CONNECTION_URL = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@YOUR_CLUSTER.aipatuc.mongodb.net/e-commerce?retryWrites=true&w=majority`;
 
 mongoose
   .connect(CONNECTION_URL, {
